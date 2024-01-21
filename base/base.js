@@ -16,6 +16,8 @@ const balance =  new Number(100)
 console.log(score)
 console.log(balance.toString().length)
 console.log(score.toFixed(2));
+console.log(score.replace('a','z'));
+console.log(score.includes('raza')); check dtring present or not
 console.log(score.toPrecision(4)) // hive round of decimal
 
 let hudreds = 10000
@@ -30,5 +32,16 @@ let min=10
 console.log(Math.random()*10+min); // give random between 10 or 20
 */
 
+/*
+let mydate= new Date()
+console.log(mydate);
+console.log(mydate.toDateString()); // show noraml date
+let newdate= new Date('12-03-2023')
+console.log(newdate.toLocaleString());
 
-let mydate= new
+let mytimestemp =  Date.now()
+console.log(mytimestemp);
+console.log(Math.floor(Date.now()/1000)); // floor reduce reminder
+
+console.log(mydate.getMonth());// get months
+*/
