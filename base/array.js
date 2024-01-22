@@ -85,7 +85,7 @@ const obj={
 
 console.log(obj.new.abdul.name);
 */
-
+/*
 const arr1={1:'a',2:"b"}
 const arr2={5:'c',2:"b"}
 const arr3=Object.assign({},arr1,arr2) // allow you to assign two objects {} this will assign value in arr3
@@ -96,4 +96,17 @@ console.log(arr1);
 console.log(Object.keys(arr1));//***      get keys 
 
 console.log(arr1.hasOwnProperty(1));// check property axist or not  
+
+*/
+
+//destructure object 
+
+const ar={
+    name:'raza',
+    email:'abdulraza',
+    address:'kota india'
+}
+
+let {address:add}=ar
+console.log(add);
 
