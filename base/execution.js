@@ -32,3 +32,13 @@ three()
 
 // jo bhi phele execute hota hai vo call stack me jata hai execution ke baad call stack se nikal jata hai .
 
+
+//let ab>20?console.log('yes'):console.log('no');
+
+
+/*
+false value: false,0,-0,BigInt on,"",null,undefined,NaN
+
+true values: "false","0","",[],{},function(){}
+ learn operators:
+*/
