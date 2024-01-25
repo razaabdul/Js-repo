@@ -102,5 +102,10 @@ m.set('b',20);
  })
  // giving in arrow function
 programming.forEach(item=>{
+    if (item=='ml'){
     console.log(item);
+    }
 })
+
+
+ 
