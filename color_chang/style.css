@@ -1,0 +1,26 @@
+body {
+    display: flex;
+}
+
+.button {
+    width: 100px; /* Set your desired width */
+    height: 100px; /* Set your desired height */
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}

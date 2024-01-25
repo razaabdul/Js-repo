@@ -14,11 +14,51 @@
 
 <script>
 
-    function add_language(langname){
-        const li = document.createElement('li');
-        li.innerHTML=`${langname}`
-        document.querySelector('.language').appendChild(li)
-    }
-    add_language('python')
+// in this approach you need to traverse all element
+
+/*  function add_language(langadd){
+    const li=document.createElement('li')
+    li.innerText=`${langadd}`
+    document.querySelector('.language')
+    .appendChild(li)
+  }
+  add_language('python ')
+  add_language('java')
+*/
+
+  // this is  optimise way to add : when you add huge data In this you dont traverse all element
+  
+
+  function langoptimize(langadd){
+    const li=document.createElement('li')
+    li.appendChild(document.createTextNode(langadd))
+    document.querySelector('.language').appendChild(li)
+}
+langoptimize('python')
+langoptimize('java')
+
+
+
+
+// edit 
+const secondlang=document.querySelector('li:nth-child(2)') // select time want to update
+// secondlang.innerHTML='raza'
+const new_li=document.createElement('li')// creat new element
+new_li.innerHTML='abdulraza'
+secondlang.replaceWith(new_li)
+
+ 
+//  secondlang.innerHTML=
+
+const first=document.querySelector('li:nth-child(1)')
+const new_l=document.createElement('li')
+new_l.textContent='abdul'
+first.replaceWith(new_l)
+
+//delete
+const last_r=document.querySelector('li:first-child')
+last_r.remove()
+
+
 </script>
 </html>
